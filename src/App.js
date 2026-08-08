@@ -1200,7 +1200,7 @@ export default function TossiTailor() {
               {
                 icon: '🕐',
                 label: 'Working Hours',
-                value: 'Mon – Sat · 9AM – 8PM',
+                value: 'Mon – Sat · 9AM – 9PM except Friday',
                 href: null,
               },
             ].map(({ icon, label, value, href }) => (
