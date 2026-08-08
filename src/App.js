@@ -345,7 +345,7 @@ const REVIEWS = [
   {
     name: 'Ahmed K.',
     stars: 5,
-    text: 'Toosi Tailor stitched my wedding sherwani perfectly. The fit was immaculate. Highly recommended to everyone in Karachi!',
+    text: 'Toosi Tailor stitched my wedding sherwani perfectly. The fit was immaculate. Highly recommended to everyone in Multan!',
   },
   {
     name: 'Bilal R.',
@@ -559,7 +559,7 @@ export default function TossiTailor() {
                 fontWeight: 600,
               }}
             >
-              Premium Men's Tailoring · Karachi, Pakistan
+              Premium Men's Tailoring · Multan, Pakistan
             </span>
           </div>
 
@@ -835,7 +835,7 @@ export default function TossiTailor() {
               <strong style={{ color: 'var(--sky)' }}>
                 1,000 satisfied customers
               </strong>{' '}
-              across Karachi, our atelier specialises in bespoke suits,
+              across Multan, our atelier specialises in bespoke suits,
               sherwanis, and traditional Pakistani menswear — each piece crafted
               to your exact measurements.
             </p>
@@ -1194,7 +1194,7 @@ export default function TossiTailor() {
               {
                 icon: '📍',
                 label: 'Location',
-                value: 'Karachi, Pakistan',
+                value: 'Multan, Pakistan',
                 href: null,
               },
               {
@@ -1404,7 +1404,7 @@ export default function TossiTailor() {
                 Go to maps.google.com → find your shop → Share → Embed a map → Copy the src URL.
               */}
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231203.33397690595!2d66.87484649999999!3d24.8607343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C+Karachi+City%2C+Sindh%2C+Pakistan!5e0!3m2!1sen!2s!4v1558621085477!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231203.33397690595!2d66.87484649999999!3d24.8607343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sMultan%2C+Multan+City%2C+Sindh%2C+Pakistan!5e0!3m2!1sen!2s!4v1558621085477!5m2!1sen!2s"
                 width="100%"
                 height="100%"
                 style={{
@@ -1415,7 +1415,7 @@ export default function TossiTailor() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Toosi Tailor Location — Karachi"
+                title="Toosi Tailor Location — Multan"
               />
             </div>
             <p
@@ -1431,7 +1431,7 @@ export default function TossiTailor() {
 
             {/* Directions CTA */}
             <a
-              href="https://maps.google.com/?q=Karachi+Pakistan"
+              href="https://maps.google.com/?q=Multan+Pakistan"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -1485,7 +1485,7 @@ export default function TossiTailor() {
             marginBottom: '1.75rem',
           }}
         >
-          Premium Men's Tailoring · Karachi, Pakistan
+          Premium Men's Tailoring · Multan, Pakistan
         </p>
         <div
           style={{
@@ -1546,7 +1546,7 @@ export default function TossiTailor() {
         />
         <p style={{ color: 'var(--dim)', fontSize: '.75rem' }}>
           © {new Date().getFullYear()} Toosi Tailor. All rights reserved. · Made
-          with ❤️ in Karachi
+          with ❤️ in Multan
         </p>
       </footer>
     </div>
