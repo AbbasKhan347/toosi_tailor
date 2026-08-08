@@ -345,7 +345,7 @@ const REVIEWS = [
   {
     name: 'Ahmed K.',
     stars: 5,
-    text: 'Tossi Tailor stitched my wedding sherwani perfectly. The fit was immaculate. Highly recommended to everyone in Karachi!',
+    text: 'Toosi Tailor stitched my wedding sherwani perfectly. The fit was immaculate. Highly recommended to everyone in Karachi!',
   },
   {
     name: 'Bilal R.',
@@ -565,7 +565,7 @@ export default function TossiTailor() {
 
           {/* MAIN TITLE */}
           <h1 className="hero-title">
-            TOSSI
+            Toosi
             <br />
             TAILOR
           </h1>
@@ -730,7 +730,7 @@ export default function TossiTailor() {
           {/* Photo */}
           <div style={{ position: 'relative' }}>
             <div className="photo-frame">
-              {/* Replace the content below with <img src="YOUR_PHOTO_URL" alt="Tossi Tailor" /> */}
+              {/* Replace the content below with <img src="YOUR_PHOTO_URL" alt="Toosi Tailor" /> */}
               <span
                 style={{ fontSize: '4.5rem', position: 'relative', zIndex: 1 }}
               >
@@ -817,7 +817,7 @@ export default function TossiTailor() {
                 fontSize: '.95rem',
               }}
             >
-              At <strong style={{ color: 'var(--ice)' }}>Tossi Tailor</strong>,
+              At <strong style={{ color: 'var(--ice)' }}>Toosi Tailor</strong>,
               we believe every man deserves clothing that fits perfectly and
               reflects his personal style. With over 15 years of expertise in
               men's tailoring, we bring precision, passion, and premium
@@ -1415,7 +1415,7 @@ export default function TossiTailor() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Tossi Tailor Location — Karachi"
+                title="Toosi Tailor Location — Karachi"
               />
             </div>
             <p
@@ -1474,7 +1474,7 @@ export default function TossiTailor() {
             letterSpacing: '.05em',
           }}
         >
-          TOSSI TAILOR
+          Toosi TAILOR
         </div>
         <p
           style={{
@@ -1545,7 +1545,7 @@ export default function TossiTailor() {
           style={{ maxWidth: '180px', margin: '0 auto 1.5rem' }}
         />
         <p style={{ color: 'var(--dim)', fontSize: '.75rem' }}>
-          © {new Date().getFullYear()} Tossi Tailor. All rights reserved. · Made
+          © {new Date().getFullYear()} Toosi Tailor. All rights reserved. · Made
           with ❤️ in Karachi
         </p>
       </footer>
