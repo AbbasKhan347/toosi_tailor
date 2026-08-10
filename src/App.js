@@ -15,7 +15,7 @@ const T = {
     bookBtn:"✂️ Book Appointment", viewPort:"View Portfolio", scroll:"Scroll",
     stats:[["1000+","Happy Customers"],["15+","Years Experience"],["5000+","Suits Crafted"],["100%","Satisfaction"]],
     aboutLabel:"About The Master", aboutT1:"Crafting Excellence", aboutT2:"Since Day One",
-    aboutP1:"At Tossi Tailor, we believe every man deserves clothing that fits perfectly and reflects his personal style. With over 15 years of expertise in men's tailoring, we bring precision, passion, and premium craftsmanship to every garment we create.",
+    aboutP1:"At Toosi Tailor, we believe every man deserves clothing that fits perfectly and reflects his personal style. With over 15 years of expertise in men's tailoring, we bring precision, passion, and premium craftsmanship to every garment we create.",
     aboutP2:"Serving over 1,000 satisfied customers across Pakistan, our atelier specialises in bespoke suits, sherwanis, and traditional Pakistani menswear — each piece crafted to your exact measurements.",
     skills:[["Suit & Formal Wear",98],["Sherwani & Cultural Wear",95],["Alterations & Repairs",99]],
     yrs:"Years of Mastery", addPhoto:"Add Your Photo Here", replaceTag:"Replace with <img> tag",
@@ -45,7 +45,7 @@ const T = {
       {icon:"💍",title:"Wedding Packages", desc:"Complete groom and groomsmen outfit packages with priority scheduling."},
     ],
     reviews:[
-      {name:"Ahmed K.", stars:5, text:"Tossi Tailor stitched my wedding sherwani perfectly. The fit was immaculate. Highly recommended!"},
+      {name:"Ahmed K.", stars:5, text:"Toosi Tailor stitched my wedding sherwani perfectly. The fit was immaculate. Highly recommended!"},
       {name:"Bilal R.",  stars:5, text:"Been coming here for 5 years. Suit quality is unmatched — every stitch is precise and perfect."},
       {name:"Usman S.", stars:5, text:"Got three office suits done. Every one fits like machine-made. Exceptional and fair pricing!"},
     ],
@@ -457,7 +457,7 @@ export default function App() {
             <span style={{fontSize:".75rem",color:"var(--sky)",letterSpacing:".15em",textTransform:"uppercase",fontWeight:600,fontFamily:urf}}>{t.badge}</span>
           </div>
 
-          <h1 className="hero-title">TOSSI<br/>TAILOR</h1>
+          <h1 className="hero-title">Toosi<br/>TAILOR</h1>
 
           <p style={{fontFamily:isUr?"'Noto Nastaliq Urdu',serif":"'Cormorant Garamond',serif",fontStyle:isUr?"normal":"italic",fontSize:"clamp(1rem,2.5vw,1.4rem)",color:"rgba(219,234,254,.85)",animation:"fadeUp 1s ease .3s both",maxWidth:"500px"}}>
             {t.heroSub}
@@ -670,7 +670,7 @@ export default function App() {
                 style={{border:0,display:"block",filter:theme==="dark"?"invert(92%) hue-rotate(180deg) saturate(1.1)":"none"}}
                 allowFullScreen="" loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Tossi Tailor Shop Location"
+                title="Toosi Tailor Shop Location"
               />
             </div>
             <a href={MAP_DIR} target="_blank" rel="noopener noreferrer"
@@ -687,7 +687,7 @@ export default function App() {
       {/* ══ FOOTER ══════════════════════════════════════ */}
       <footer className="footer">
         <div style={{fontFamily:"'Playfair Display',serif",fontSize:"2.2rem",fontWeight:900,color:"var(--gold)",marginBottom:".5rem",letterSpacing:".05em"}}>
-          TOSSI TAILOR
+          Toosi TAILOR
         </div>
         <p style={{color:"var(--dim)",fontSize:".88rem",marginBottom:"1.6rem",fontFamily:urf}}>{t.ftTag}</p>
         <div className="footer-links" style={{display:"flex",gap:"2rem",justifyContent:"center",flexWrap:"wrap",marginBottom:"1.8rem"}}>
@@ -705,7 +705,7 @@ export default function App() {
         </div>
         <div className="gold-bar" style={{maxWidth:"180px",margin:"0 auto 1.4rem"}} />
         <p style={{color:"var(--dim)",fontSize:".72rem",fontFamily:urf}}>
-          © {new Date().getFullYear()} Tossi Tailor · {t.ftRights}
+          © {new Date().getFullYear()} Toosi Tailor · {t.ftRights}
         </p>
       </footer>
 
