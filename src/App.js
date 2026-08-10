@@ -28,7 +28,8 @@ const T = {
     ctaLabel:"Get In Touch", ctaT1:"Book Your ", ctaT2:"Appointment",
     phoneL:"Phone / WhatsApp", emailL:"Email", locL:"Location", locV:"Multan, Pakistan",
     hrsL:"Working Hours", hrsV:"Mon – Sat · 9AM – 8PM, Friday Off",
-    wa:"💬 Chat on WhatsApp", waMsg:"I want to get a suit stitched.\nAre you available at your shop?",    nameP:"Your Name", phoneP:"Phone Number", selSrv:"Select a Service",
+    wa:"💬 Chat on WhatsApp", waMsg:"I want to get a suit stitched.\nAre you available at your shop?",
+    nameP:"Your Name", phoneP:"Phone Number", selSrv:"Select a Service",
     msgP:"Your Message or Requirements", sendBtn:"Send Message ✉️",
     sentOk:"✅ Message sent! We will contact you shortly.",
     dirBtn:"🗺️ Get Directions to Our Shop",
@@ -632,9 +633,14 @@ export default function App() {
               </div>
             ))}
 
-            <a className="wa" href="https://wa.me/923056957968" target="_blank" rel="noopener noreferrer">
-              <span style={{fontFamily:urf}}>{t.wa}</span>
-            </a>
+<a
+  className="wa"
+  href={`https://wa.me/923056957968?text=${encodeURIComponent(t.waMsg)}`}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <span style={{fontFamily:urf}}>{t.wa}</span>
+</a>
 
             {/* Contact form */}
             <div style={{background:"rgba(22,52,112,.15)",border:"1px solid var(--cb)",borderRadius:"16px",padding:"1.6rem"}}>
