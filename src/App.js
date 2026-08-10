@@ -687,7 +687,7 @@ export default function App() {
       {/* ══ FOOTER ══════════════════════════════════════ */}
       <footer className="footer">
         <div style={{fontFamily:"'Playfair Display',serif",fontSize:"2.2rem",fontWeight:900,color:"var(--gold)",marginBottom:".5rem",letterSpacing:".05em"}}>
-          Toosi TAILOR
+          TOOSI TAILOR
         </div>
         <p style={{color:"var(--dim)",fontSize:".88rem",marginBottom:"1.6rem",fontFamily:urf}}>{t.ftTag}</p>
         <div className="footer-links" style={{display:"flex",gap:"2rem",justifyContent:"center",flexWrap:"wrap",marginBottom:"1.8rem"}}>
