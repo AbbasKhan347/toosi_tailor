@@ -457,7 +457,7 @@ export default function App() {
             <span style={{fontSize:".75rem",color:"var(--sky)",letterSpacing:".15em",textTransform:"uppercase",fontWeight:600,fontFamily:urf}}>{t.badge}</span>
           </div>
 
-          <h1 className="hero-title">Toosi<br/>TAILOR</h1>
+          <h1 className="hero-title">TOOSI<br/>TAILOR</h1>
 
           <p style={{fontFamily:isUr?"'Noto Nastaliq Urdu',serif":"'Cormorant Garamond',serif",fontStyle:isUr?"normal":"italic",fontSize:"clamp(1rem,2.5vw,1.4rem)",color:"rgba(219,234,254,.85)",animation:"fadeUp 1s ease .3s both",maxWidth:"500px"}}>
             {t.heroSub}
