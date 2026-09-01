@@ -39,15 +39,13 @@ const T = {
     services:[
       {icon:"✂️",title:"Bespoke Suits",    desc:"Custom-crafted suits measured to your exact body — lapels, lining, and fabric all chosen by you."},
       {icon:"👔",title:"Dress Shirts",     desc:"Premium dress shirts tailored to your collar size, sleeve length, and preferred fit style."},
-      {icon:"🪭",title:"Sherwani",         desc:"Stunning sherwanis for weddings and eid — traditional embroidery with modern silhouettes."},
       {icon:"🧵",title:"Shalwar Kameez",  desc:"Classic Pakistani menswear stitched with precision in your choice of fabric and cut."},
       {icon:"🪡",title:"Alterations",      desc:"Expert resizing, hemming, and repairs to breathe new life into any garment."},
-      {icon:"💍",title:"Wedding Packages", desc:"Complete groom and groomsmen outfit packages with priority scheduling."},
     ],
     reviews:[
-      {name:"Ahmed K.", stars:5, text:"Toosi Tailor stitched my wedding sherwani perfectly. The fit was immaculate. Highly recommended!"},
-      {name:"Bilal R.",  stars:5, text:"Been coming here for 5 years. Suit quality is unmatched — every stitch is precise and perfect."},
-      {name:"Usman S.", stars:5, text:"Got three office suits done. Every one fits like machine-made. Exceptional and fair pricing!"},
+      {name:"Husnain A.", stars:5, text:"Toosi Tailor stitched my formal suit perfectly. The fit was immaculate. Highly recommended!"},
+      {name:"Shoukat A.",  stars:5, text:"Been coming here for 5 years. Suit quality is unmatched — every stitch is precise and perfect."},
+      {name:"Shayyan S.", stars:5, text:"Got three office suits done. Every one fits like machine-made. Exceptional and fair pricing!"},
     ],
     gallery:["Wedding Suit","Sherwani","Business Suit","Shalwar Kameez","Casual Wear","Formal Attire"],
   },
