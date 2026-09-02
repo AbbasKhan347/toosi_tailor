@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 
 /* ── IMAGES — paste your ImgBB direct links here ── */
-const MY_PROFILE  = "PASTE_YOUR_PROFILE_DIRECT_LINK";   // your photo (man in black suit)
-const DAD_PROFILE = "PASTE_DAD_PROFILE_DIRECT_LINK";    // dad photo
-const IMG1 = "PASTE_IMG1_DIRECT_LINK";                  // Men & Gents collage
-const IMG2 = "PASTE_IMG2_DIRECT_LINK";                  // Kids & Gents
-const IMG3 = "PASTE_IMG3_DIRECT_LINK";                  // Shalwar Kameez collection
-const IMG4 = "PASTE_IMG4_DIRECT_LINK";                  // Ladies & Gents
-const LADIES = "PASTE_LADIES_DIRECT_LINK";              // Ladies suit
+const MY_PROFILE  = "https://ibb.co/yj5Js4G";   // your photo (man in black suit)
+const DAD_PROFILE = "https://ibb.co/yj5Js4G";    // dad photo
+const IMG1 = "https://ibb.co/XkjrWn3J";                  // Men & Gents collage
+const IMG2 = "https://ibb.co/gM8DCMyj";                  // Kids & Gents
+const IMG3 = "https://ibb.co/HptxBt16";                  // Shalwar Kameez collection
+const IMG4 = "https://ibb.co/VYwjPKmj";                  // Ladies & Gents
+const LADIES = "https://ibb.co/kVRt4RVV";              // Ladies suit
 
 const GALLERY = [
   { src: IMG1,   label_en: "Men & Gents Collection",    label_ur: "مردوں کا کلیکشن",         tall: true  },
